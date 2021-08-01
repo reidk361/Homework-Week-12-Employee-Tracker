@@ -1,0 +1,29 @@
+{
+  "name": "homework-week-12-employee-tracker",
+  "version": "1.0.0",
+  "description": "UofO Coding Bootcamp Homework for Week 12: Employee Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reidk361/Homework-Week-12-Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reidk361/Homework-Week-12-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/reidk361/Homework-Week-12-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
