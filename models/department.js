@@ -8,7 +8,8 @@ class Department extends Model {}
 Department.init(
     {
       id: {
-        type: DataTypes.INTEGER
+        type: DataTypes.INTEGER,
+        auto_increment: true
       },
       name: {
         type: DataTypes.STRING(30)
