@@ -93,6 +93,9 @@ function removeEmployee(){
 }
 
 db.query('SELECT * FROM department', function (err, results) {
+    if (err) {
+        console.log(err);
+    }
     console.table(results);
   });
 
