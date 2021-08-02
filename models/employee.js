@@ -8,7 +8,9 @@ class Employee extends Model {}
 Employee.init(
     {
       id: {
-        type: DataTypes.INTEGER
+        type: DataTypes.INTEGER,
+        auto_increment: true,
+        primary_key: true
       },
       first_name: {
         type: DataTypes.STRING(30)

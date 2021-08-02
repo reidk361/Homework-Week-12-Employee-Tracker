@@ -1,13 +1,16 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const Department = require('./department');
+const Employee = require('./employee');
 
 class Role extends Model {}
 
 Role.init(
     {
       id: {
-        type: DataTypes.INTEGER
+        type: DataTypes.INTEGER,
+        auto_increment: true,
+        primary_key: true
       },
       title: {
         type: DataTypes.STRING(30)
