@@ -2,10 +2,10 @@
   "name": "homework-week-12-employee-tracker",
   "version": "1.0.0",
   "description": "UofO Coding Bootcamp Homework for Week 12: Employee Tracker",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "inquirer": "^8.1.2",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.6.5"
+    "mysql2": "^2.2.5"
   }
 }

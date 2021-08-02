@@ -1,7 +1,5 @@
-const {  optionHandler  } = require('./helpers/handleInquirer');
-const Department = require('./models/department');
-const Employee = require('./models/employee');
-const Role = require('./models/role');
+//const {  db  } = require('./config/connection');
+const {  optionHandler  } = require('./helpers/handleInquirer')
 
 async function init() {
     await optionHandler();
