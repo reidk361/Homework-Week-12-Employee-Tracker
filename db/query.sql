@@ -8,7 +8,7 @@ SELECT
         ON role_table.department_id = department_table.id;
 
 SELECT
-  employee_table.id AS employee_id,
+  employee_table_1.id AS employee_id,
   employee_table_1.first_name AS first_name,
   employee_table_1.last_name AS last_name,
   role_table.role_name AS role_name,
